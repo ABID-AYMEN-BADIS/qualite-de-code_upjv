@@ -1,1 +1,59 @@
 "body { color: blue; }""h1 { color: red; }" 
+/* css/ligne.css */
+
+/* Applique un fond d'écran à la page */
+body {
+    background-color: #f0f0f0; /* couleur de fond */
+    font-family: 'Arial', sans-serif; /* police de caractères */
+    margin: 0;
+    padding: 0;
+    color: #333; /* couleur du texte */
+}
+
+/* Style pour le titre h1 */
+h1 {
+    color: #333; /* couleur du texte */
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff; /* fond blanc pour les paragraphes */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ombre pour les paragraphes */
+}
+
+/* Style pour les liens */
+a {
+    color: #007BFF; /* couleur bleue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Ajout d'un footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Style pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
