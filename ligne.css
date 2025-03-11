@@ -1,4 +1,5 @@
-"body { color: blue; }""h1 { color: red; }" 
+body { color: blue; }
+h1 { color: red; }
 /* css/ligne.css */
 
 /* Applique un fond d'écran à la page */
@@ -56,4 +57,13 @@ img {
     display: block;
     margin: 20px auto;
 }
-
+.bas_de_page {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1; /* couleur de fond */
+    text-align: center; /* centrer le texte */
+    padding: 10px; /* un peu d'espace autour du texte */
+    font-size: 16px; /* taille de police exemple */
+}
